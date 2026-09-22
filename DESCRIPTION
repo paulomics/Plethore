@@ -1,0 +1,22 @@
+Package: Plethore
+Title: Utilities for single-cell analysis in quarto report
+Version: 0.0.0.9000
+Authors@R:
+    person(
+      "Paul",
+      "Blanc",
+      email = "paul.blanc733@gmail.com",
+      role = c("aut", "cre")
+    )
+Description: Collection of helper functions and datasets for
+    single-cell melanoma analyses in quarto report.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
